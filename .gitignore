@@ -1,2 +1,3 @@
 .vscode/*
 scr/*.out
+scr/*.o
