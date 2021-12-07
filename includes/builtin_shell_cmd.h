@@ -6,8 +6,6 @@ int lsh_help(char **args);
 int lsh_exit(char **args);
 
 extern char *builtin_str[];
-extern int (*builint_func[]) (char **);
-
-
+extern int (*builtin_func[]) (char **);
 
 #endif
