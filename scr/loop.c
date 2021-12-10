@@ -150,4 +150,6 @@ int lsh_execute(char **args)
          return (*builtin_func[i])(args);
       }
    }
+
+   return lsh_launch(args);
 }
